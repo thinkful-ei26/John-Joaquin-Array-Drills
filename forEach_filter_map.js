@@ -23,7 +23,9 @@ function hangaBanga(array){
     }
 }
 
-console.log(hangaBanga(arr));
+//console.log(hangaBanga(arr));
+
+console.log(arr.forEach(element => console.log(Math.abs(element[0]) + Math.abs(element[1]))));
 
 
 
